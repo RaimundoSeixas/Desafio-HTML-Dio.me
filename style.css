@@ -11,7 +11,7 @@ body {
   width: 1200px;
   display: flex;
   margin: 0 auto;
-  background-color: rgb(92, 190, 251);
+  background-color: rgb(14, 143, 152);
 }
 .main {
   display: flex;
@@ -19,24 +19,67 @@ body {
   width: 85%;
 }
 .menu {
-  width: 15%;
-  background-color: rgb(92, 190, 251);
+  /* width: 15%; */
+  background-color: rgb(14, 143, 152);
   padding: 10px 20px 0px;
   line-height: 50px;
+  font-weight: 300;
+  
+}
+
+/* ADICIONANDO TAG P EM MENU */
+.pet {
+ text-align: right;
+ font-size: 60px;
+ padding: 10px;
 }
 .header img {
   background-repeat: no-repeat;
- 
+  padding-top: 8px;
   min-height: 150px;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
 .content {
-  background-color: rgb(92, 190, 251);
+  background-color: rgb(29, 148, 156);
   min-height: 300px;
   padding: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  
+}
+fieldset {
+  
+  
+}
+
+
+.cuidar {
+  color: #f1f1f1;
+  text-align: center;
+}
+.assunto {
+  color: rgb(101, 1, 195);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+thead, tbody, th, td {
+  border: 1px white solid;
+}
+
+th {
+  background-color: black;
+  color: #f1f1f1;
 }
 .footer {
-  background-color: rgb(92, 190, 251);
+  background-color: rgb(14, 143, 152);
   min-height: 150px;
+  line-height: 2px
+  
+  
+}
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
 }
